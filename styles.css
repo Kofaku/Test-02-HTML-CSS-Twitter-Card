@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+body{
+  display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color:#ECF8FF;
+}
+.back{
+  width: 539px;
+  padding: 35px 31px 35px 31px;
+  gap: 15px;
+  border-radius: 10px;
+  border: 1px solid #1DA1F233;
+  opacity: 0px;
+  background-color:white;
+  box-shadow: 0px 15px 60px 0px #1DA1F226;
+}
+.head{
+  display: flex;
+  flex-direction: row;
+  width: 539px;
+  height: Hug (50px)px;
+  gap: 0px;
+  justify: space-between;
+  opacity: 0px;
+}
+.name{
+  display: flex;
+  flex-direction: column;
+  width: Hug (95px)px;
+  height: Hug (44px)px;
+  gap: 1px;
+  opacity: 0px;
+  margin: 3px 0 3px 22px;
+}
+.nameSurname{
+  gap: 0px;
+  opacity: 0px;
+  font-family:'Source Sans 3', Source Sans Pro;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22.63px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+}
+.username{
+  font-family:'Source Sans 3', Source Sans Pro;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.11px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color:#00000099
+}
+.twit{
+  margin:10px 0 10px 342px;
+}
+.text{
+  font-family:'Source Sans 3', Source Sans Pro;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin: 15px 0;
+}
+.tag{
+  font-family:'Source Sans 3', Source Sans Pro;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color:#1DA1F2;
+}
+.footer{
+  display: flex;
+  flex-direction: row;
+}
+.heart{
+  margin:0 0 2px 0;
+}
+.likes{
+  font-family:'Source Sans 3', Source Sans Pro;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color:#00000099;
+  margin: 0 0 0 10px;
+}
+.data{
+  font-family:'Source Sans 3', Source Sans Pro;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color:#00000099;
+  margin: 0 0 0 20px;
+}
